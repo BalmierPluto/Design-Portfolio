@@ -18,4 +18,3 @@ Utöver det så är jag även intresserad av botanik, men det hade krävts en eg
 
 ![En bild på Welwitschia](%assets_url%/img/welwitschia.jpg "Welwitschia mirabilis"){.plant}
 
-

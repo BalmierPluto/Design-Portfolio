@@ -20,7 +20,6 @@ html, body {
 /* Placement */
 
 body {
-    background-color: #879480;
     display: flex;
     flex-direction: column;
 }
@@ -43,13 +42,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 1em 0;
-    margin-left: 1em;
-}
-
-.logga {
-    max-width: 200px;
-    border-radius: 3em;
+    padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
@@ -76,10 +69,8 @@ body {
 
 .footer {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     border-top: 1px solid #222;
-    padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .footer a {
@@ -87,7 +78,7 @@ body {
 }
 
 .footer .social {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 /* Typografy */
@@ -95,26 +86,22 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: black;
+    color: #444;
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    margin-left: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
-    margin-left: 1em;
 }
 
 img {
     max-width: 100%;
-    padding: 1em;
-    border-radius: 3em;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
@@ -157,5 +144,3 @@ blockquote {
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
 }
-
-
