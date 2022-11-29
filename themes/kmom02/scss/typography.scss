@@ -1,0 +1,25 @@
+* {
+    font-family: $font-style;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-style;
+    margin-left: 1em;
+}
+
+h1 {
+    font-family: $font-style;
+    margin-left: 0.33em;  
+}
+
+p,
+td,
+th,
+li,
+dd {
+    margin-left: 1em;
+}
