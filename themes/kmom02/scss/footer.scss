@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: start;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 1em;
+}
+
+.footer .social {
+    font-size: 3rem;
+    margin-left: 0.5em;
+}
+
+.social a {
+    text-decoration: none;
+}
