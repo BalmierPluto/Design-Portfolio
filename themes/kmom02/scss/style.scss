@@ -4,6 +4,20 @@
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
+@import 'navbar';
+@import 'footer';
+@import 'header';
+@import 'typography';
+
+@import 'home-page';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 
 body {
     background-color: $background-color;
@@ -12,3 +26,25 @@ body {
 * {
     color: $font-color;
 }
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+
+    .logga {
+        max-width: 6em;
+    }
+}
+
+
+
