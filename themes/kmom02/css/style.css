@@ -308,6 +308,41 @@ template {
   display: none;
 }
 
+blockquote {
+  font-style: italic;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 0.5em solid #f5f5f5;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #f5f5f5;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.9824;
+}
+
+pre {
+  padding: 0 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #f5f5f5;
+}
+
+pre code {
+  display: block;
+  margin: 0;
+  padding: 1.1111em 0;
+  border: 0 none;
+  background: transparent;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -324,7 +359,8 @@ template {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -360,13 +396,18 @@ template {
     text-align: center;
     cursor: pointer;
   }
+  .sidebar {
+    display: none;
+  }
 }
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: start;
 }
 
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 1em 0;
   margin-left: 1em;
 }
@@ -393,26 +434,29 @@ template {
   text-decoration: none;
 }
 
-.header, .site-header {
-  display: flex;
-  justify-content: start;
-}
-
 * {
   font-family: "Roboto", sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
   margin-left: 1em;
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-left: 0.33em;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   margin-left: 1em;
 }
 
@@ -421,6 +465,114 @@ p, td, th, li, dd {
   max-width: 595px;
   height: auto;
   border-radius: 3em;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.parent-container {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.parent-container h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.container-child {
+  transition: 1s;
+  background-color: rgb(178, 176, 176);
+  padding: 2em;
+}
+
+.container-child:hover {
+  background-color: rgb(132, 200, 243);
+  padding: 3em;
+}
+
+.cssbox {
+  grid-column: span 1;
+}
+
+.htmlbox {
+  grid-column: span 2;
+}
+
+.jsbox {
+  grid-column: span 2;
+}
+
+.phpbox {
+  grid-column: span 1;
+}
+
+.pythonbox {
+  grid-column: span 3;
+}
+
+.gitbox {
+  grid-column: span 1;
+}
+
+.sqlitebox {
+  grid-column: span 2;
+}
+
+@media (max-width: 767px) {
+  .mobilebox {
+    grid-column: span 3;
+  }
+}
+.techmain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sidebar {
+  grid-column: span 1;
+}
+
+.p {
+  grid-column: span 2;
+}
+
+.nav1 {
+  display: block;
+  padding: 1em;
+  transition: 1s;
+}
+
+.nav1:hover {
+  background-image: linear-gradient(to right, rgb(132, 200, 243), #87999e);
+  padding: 2em;
+}
+
+.tech1 {
+  background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech3 {
+  background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech5 {
+  background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech7 {
+  background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
 }
 
 /*!
@@ -6546,7 +6698,8 @@ body {
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {

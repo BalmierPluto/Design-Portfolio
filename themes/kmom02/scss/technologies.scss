@@ -1,0 +1,54 @@
+.parent-container {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.parent-container h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.container-child {
+    transition: 1s;
+    background-color: rgb(178, 176, 176);
+    padding: 2em;
+}
+
+.container-child:hover {
+    background-color: rgb(132, 200, 243);
+    padding: 3em;
+}
+
+.cssbox {
+    grid-column: span 1;
+}
+
+.htmlbox {
+    grid-column: span 2;
+}
+
+.jsbox {
+    grid-column: span 2;
+}
+
+.phpbox {
+    grid-column: span 1;
+}
+
+.pythonbox {
+    grid-column: span 3;
+}
+
+.gitbox {
+    grid-column: span 1;
+}
+
+.sqlitebox {
+    grid-column: span 2;
+}
+
+@media (max-width: 767px) {
+    .mobilebox {
+        grid-column: span 3;
+    }
+}

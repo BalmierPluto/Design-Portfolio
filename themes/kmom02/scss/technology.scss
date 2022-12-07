@@ -1,0 +1,39 @@
+.techmain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sidebar {
+    grid-column: span 1;
+}
+
+.p {
+    grid-column: span 2;
+}
+
+.nav1 {
+    display: block;
+    padding: 1em;
+    transition: 1s;
+}
+
+.nav1:hover {
+    background-image: linear-gradient(to right, rgb(132, 200, 243), #87999e);
+    padding: 2em;
+}
+
+.tech1 {
+    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech3 {
+    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech5 {
+    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}
+
+.tech7 {
+    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+}

@@ -6,10 +6,12 @@
 @import 'mobile-menu';
 @import 'navbar';
 @import 'footer';
-@import 'header';
 @import 'typography';
 
 @import 'home-page';
+@import 'report';
+@import 'technologies';
+@import 'technology';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
