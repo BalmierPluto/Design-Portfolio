@@ -12,5 +12,13 @@
 
 .logga {
     max-width: 15em;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: $plant-border;
     border-radius: 3em;
+}
+
+.nav a,
+.nav-toggle {
+    color: $nav-color;
 }

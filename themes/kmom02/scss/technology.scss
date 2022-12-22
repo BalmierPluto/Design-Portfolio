@@ -18,22 +18,22 @@
 }
 
 .nav1:hover {
-    background-image: linear-gradient(to right, rgb(132, 200, 243), #87999e);
+    background-image: $gradient-hover;
     padding: 2em;
 }
 
 .tech1 {
-    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+    background-image: $gradient;
 }
 
 .tech3 {
-    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+    background-image: $gradient;
 }
 
 .tech5 {
-    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+    background-image: $gradient;
 }
 
 .tech7 {
-    background-image: linear-gradient(to right, rgb(104, 134, 134), #87999e);
+    background-image: $gradient;
 }

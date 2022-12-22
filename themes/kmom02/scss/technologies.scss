@@ -10,12 +10,12 @@
 
 .container-child {
     transition: 1s;
-    background-color: rgb(178, 176, 176);
+    background-color: $conainer-child-color;
     padding: 2em;
 }
 
 .container-child:hover {
-    background-color: rgb(132, 200, 243);
+    background-color: $container-child-hover;
     padding: 3em;
 }
 

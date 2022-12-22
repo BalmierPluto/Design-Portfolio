@@ -1,6 +1,33 @@
-$font-color: #000;
+$font-color: #4d4841;
 $font-alternative-color: #fff;
 $font-style: 'Roboto', sans-serif;
 $accent-color: #ee6c4d;
-$background-color: #87999e;
+$background-color: #cbc0ad;
 $background-alternative-color: #e0fbfc;
+
+// Border color for .plant */
+$plant-border: #4d402a;
+
+// Variables for technologies page */
+
+// container child color */
+
+$conainer-child-color: #999182;
+$container-child-hover: #d5b175;
+
+// Technology links colors */
+
+$gradient: linear-gradient(to right, #999182, #cbc0ad);
+$gradient-hover: linear-gradient(to right, #d5b175, #cbc0ad);
+
+// Header & footer background-color */
+
+$header-color: linear-gradient(to bottom, #999182, #cbc0ad);
+
+// Nav font color */
+
+$nav-color: #4d4841;
+
+// code background color for technology */
+
+$pre-color: #f5f5f5;

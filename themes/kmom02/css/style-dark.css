@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -309,7 +309,7 @@ template {
 }
 
 body {
-  background-color: #cbc0ad;
+  background-color: #041c32;
 }
 
 blockquote {
@@ -334,7 +334,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #333;
 }
 
 pre code {
@@ -420,18 +420,18 @@ pre code {
   max-width: 15em;
   border-width: 0.5em;
   border-style: solid;
-  border-color: #4d402a;
+  border-color: #064663;
   border-radius: 3em;
 }
 
 .nav a,
 .nav-toggle {
-  color: #4d4841;
+  color: #eee;
 }
 
 .header {
-  background-image: linear-gradient(to bottom, #999182, #cbc0ad);
-  border-top: 2em solid #4d402a;
+  background-image: linear-gradient(to bottom, #04293a, #041c32);
+  border-top: 2em solid #064663;
 }
 
 .footer {
@@ -451,8 +451,8 @@ pre code {
 }
 
 * {
-  font-family: "Roboto", sans-serif;
-  color: #4d4841;
+  font-family: "Bree Serif", serif;
+  color: #eee;
 }
 
 h2,
@@ -460,12 +460,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bree Serif", serif;
   margin-left: 1em;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bree Serif", serif;
   margin-left: 0.33em;
 }
 
@@ -485,7 +485,7 @@ dd {
   height: auto;
   border-width: 0.5em;
   border-style: solid;
-  border-color: #4d402a;
+  border-color: #064663;
   border-radius: 3em;
 }
 
@@ -515,12 +515,12 @@ dd {
 
 .container-child {
   transition: 1s;
-  background-color: #999182;
+  background-color: #04293a;
   padding: 2em;
 }
 
 .container-child:hover {
-  background-color: #d5b175;
+  background-color: #064663;
   padding: 3em;
 }
 
@@ -577,24 +577,24 @@ dd {
 }
 
 .nav1:hover {
-  background-image: linear-gradient(to right, #d5b175, #cbc0ad);
+  background-image: linear-gradient(to right, #064663, #252547);
   padding: 2em;
 }
 
 .tech1 {
-  background-image: linear-gradient(to right, #999182, #cbc0ad);
+  background-image: linear-gradient(to right, #04293a, #041c32);
 }
 
 .tech3 {
-  background-image: linear-gradient(to right, #999182, #cbc0ad);
+  background-image: linear-gradient(to right, #04293a, #041c32);
 }
 
 .tech5 {
-  background-image: linear-gradient(to right, #999182, #cbc0ad);
+  background-image: linear-gradient(to right, #04293a, #041c32);
 }
 
 .tech7 {
-  background-image: linear-gradient(to right, #999182, #cbc0ad);
+  background-image: linear-gradient(to right, #04293a, #041c32);
 }
 
 /*!
@@ -6709,14 +6709,6 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
-}
-
-body {
-  background-color: #cbc0ad;
-}
-
-* {
-  color: #4d4841;
 }
 
 @media (max-width: 767px) {

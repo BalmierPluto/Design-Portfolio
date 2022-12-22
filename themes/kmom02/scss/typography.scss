@@ -1,5 +1,6 @@
 * {
     font-family: $font-style;
+    color: $font-color;
 }
 
 h2,
@@ -22,4 +23,6 @@ th,
 li,
 dd {
     margin-left: 1em;
+    letter-spacing: 0.1em;
+    font-size: larger;
 }
